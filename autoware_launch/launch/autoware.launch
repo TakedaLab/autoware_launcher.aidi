@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
+  <!-- add use_sim_time not to make error when use rosbag -->
+  <param name="use_sim_time" value="true"/>
   <!-- Essential parameters -->
   <arg name="map_path" doc="point cloud and lanelet2 map directory path"/>
   <arg name="vehicle_model"/>
