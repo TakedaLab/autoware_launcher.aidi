@@ -42,12 +42,12 @@
   </include>
 
   <!-- Planning -->
-  <include file="$(find planning_launch)/launch/planning.launch" />
+  <!-- <include file="$(find planning_launch)/launch/planning.launch" /> -->
 
   <!-- Control -->
-  <include file="$(find control_launch)/launch/control.launch">
+  <!-- <include file="$(find control_launch)/launch/control.launch">
     <arg name="lateral_controller_mode" value="mpc_follower" doc="options: mpc_follower, pure_pursuit"/>
-  </include>
+  </include> -->
 
   <!-- AutowareAPI -->
   <include file="$(find awapi_awiv_adapter)/launch/awapi_awiv_adapter.launch" />
